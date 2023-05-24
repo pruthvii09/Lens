@@ -1,0 +1,48 @@
+.display{
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+}
+.display .featured-heading{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.all-spects{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: fit-content;
+
+}
+.spects-info{
+    padding: 10px 15px;
+}
+.spects-info p{
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+.spects-info h2{
+    font-weight: 300;
+}
+.display-spects{
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    width: min-content;
+    margin-bottom: 30px;
+    border: 1px solid #e1e1e1;
+}
+.display-spects .spects-img img{
+    width: 330px;
+    height: 205.33px;
+    object-fit: cover;
+    background-color: white;
+}
+.featured-heading a{
+    margin-right: 20px;
+    font-size: 18px;
+    color: black;
+}
+.featured-heading h2{
+    font-size: 30px;
+}

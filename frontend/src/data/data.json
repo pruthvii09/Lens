@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "img": "https://firebasestorage.googleapis.com/v0/b/salinaka-ecommerce.appspot.com/o/products%2F7l3FMZqY8JdfssalDgx2?alt=media&token=be15689c-e12c-4829-9d78-32395ef1e3f7",
+    "title": "Lenskart Air",
+    "desc": "All Colors - Pastel Variant ( Light shades ), Price - Budget Friendly, Weight - Lightweight"
+  },
+  {
+    "id": 2,
+    "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//j/o/john-jacobs-jj-e10235-c7-eyeglasses_g_2374.jpg",
+    "title": "John Jacobs",
+    "desc": "Classy ,Beautiful ,Price-worthy and with photochromatic lens it gets even better outside Totally Satisfied with the quality"
+  },
+  {
+    "id": 3,
+    "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/Purple-Silver-Purple-Transparent-Full-Rim-Round-Vincent-Chase-SLEEK-STEEL-VC-E13784-C1-Eyeglasses_vincent-chase-vc-e13784-c1-eyeglasses_g_301609_02_2022.jpg",
+    "title": "Vincent Chase",
+    "desc": "Nice product as expected and the Customer care support team were also very helpful"
+  },
+  {
+    "id": 4,
+    "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/e/lenskart-air-la-e12489-c2-eyeglasses_g_0839.jpg",
+    "title": "Lenskart Air",
+    "desc": "Width and length was perfect for my face and fitted so easily Frame is very light weight and looks like it will be durable in the long run"
+  },
+  {
+    "id": 5,
+    "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//v/i/vincent-chase-vc-s14084-c4-c4-sunglasses_vincent-chase-vc-s14084-c4-c4-sunglasses_vincent-chase-vc-s14084-c4-c4-sunglasses_G_6509.jpg",
+    "title": "Vincent Chase Polarized",
+    "desc": "Good quality frame, fits me well. The delivery time was fairly quick too, which was expected as it is a powerless variant."
+  },
+  {
+    "id": 6,
+    "img": "https://static5.lenskart.com/media/catalog/product/pro/1/thumbnail/480x480/9df78eab33525d08d6e5fb8d27136e95//l/i/black-grey-rimless-rectangle-lenskart-air-classic-la-e14864-c3-eyeglasses_g_9510_01_17_23.jpg",
+    "title": "Lenskart Air",
+    "desc": "comfortable light weight descent"
+  }
+]

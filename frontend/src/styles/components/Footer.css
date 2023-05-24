@@ -1,0 +1,16 @@
+.footer .footer-img img{
+    width: 8rem;
+    height: inherit;
+    object-fit: contain;
+}
+.footer .footer-copyright{
+    color: gray;
+    font-weight: 600;
+}
+.footer{
+    padding: 1rem;
+    gap: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

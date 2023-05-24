@@ -1,0 +1,129 @@
+.main-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    
+}
+.flex-container{
+    display: flex;
+    padding: 2rem 3rem;
+    border: 1px solid #e1e1e1;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+}
+.input-container{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.input-container i{
+    position: absolute;
+    cursor: pointer;
+    font-size: 18px;
+    right: 10px;
+    bottom: 10px;
+}
+.input-container label{
+    font-size: 13px;
+    margin: 7px 0px;
+}
+.input-container input{
+    border: 1px solid #e1e1e1;
+    outline: none;
+    font-weight: 500;
+    padding: 8px 12px;
+    width: 300px;
+}
+.forgot-container{
+    display: flex;
+    margin-top: 15px;
+    justify-content: space-between;
+}
+.forgot-container button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.forgot-container p{
+    font-size: 12px;
+    font-weight: 500;
+    cursor: pointer;
+}
+.forgot-container button i{
+    font-size: 18px;
+}
+.auth-divider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 0 3rem;
+}
+.auth-divider::before{
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    background: #e1e1e1;
+}
+.auth-divider h6{
+    background: rgb(249,249,249);
+    padding: 5px 0px;
+    z-index: 10;
+}
+.auth-divider::after{
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 1px;
+    background: #e1e1e1;
+}
+.auth-options{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.auth-options button i{
+    font-size: 18px;
+}
+.auth-options button{
+    display: flex;
+    font-weight: 500;
+    border: none;
+    align-items: center;
+    gap: 10px;
+    width: 300px;
+    padding: 10px 15px;
+}
+.auth-new{
+    display: flex;
+    margin-top: 15px;
+    padding: 8px 15px;
+    align-items: center;
+    gap: 15px;
+}
+.auth-new button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 12px 18px;
+    color: white;
+    background-color: black;
+    border: none;
+}
+.auth-new p{
+    font-size: 14px;
+    font-weight: 500;
+}
