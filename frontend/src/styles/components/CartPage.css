@@ -1,0 +1,115 @@
+.cart-container {
+  display: flex;
+  /* justify-content: space-evenly; */
+  padding: 0 10rem;
+}
+.cart-container p {
+  font-size: 20px;
+  font-weight: 200;
+}
+.info-cart-div {
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  /* box-shadow: 1px 12px 48px -8px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 1px 12px 48px -8px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 1px 12px 48px -8px rgba(0, 0, 0, 0.25); */
+}
+.input-cart {
+  display: flex;
+  gap: 10px;
+  /* flex-direction: column; */
+}
+.input-cart input {
+  padding: 8px 10px;
+  outline: none;
+  border: 1px solid #e1e1e1;
+}
+.individual-cart-input {
+  display: flex;
+  gap: 5px;
+  margin-top: 10px;
+  flex-direction: column;
+}
+.individual-cart-input label {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* The switch - the box around the slider */
+.switch {
+  font-size: 14px;
+  position: relative;
+  display: inline-block;
+  width: 3em;
+  height: 2em;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #b0b0b0;
+  border: 1px solid #b0b0b0;
+  transition: 0.4s;
+  border-radius: 32px;
+  outline: none;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  outline: 2px solid #b0b0b0;
+  left: 5px;
+  bottom: 5px;
+  background-color: #fff;
+  transition: transform 0.25s ease-in-out 0s;
+}
+
+.slider-icon {
+  opacity: 0;
+  height: 8px;
+  width: 8px;
+  stroke-width: 8;
+  position: absolute;
+  z-index: 999;
+  stroke: #222222;
+  right: 50%;
+  top: 30%;
+  transition: right ease-in-out 0.3s, opacity ease-in-out 0.15s;
+}
+
+input:checked + .slider {
+  background-color: #222222;
+}
+
+input:checked + .slider .slider-icon {
+  opacity: 1;
+  right: 20%;
+}
+
+input:checked + .slider:before {
+  transform: translateX(1em);
+  outline-color: #181818;
+}
+.order-summary .order-product img {
+  width: 5rem;
+}
+.order-product {
+  padding: 5px;
+  display: flex;
+}
